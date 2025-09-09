@@ -1,0 +1,60 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #ffffff, #ffffff);
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  max-width: 500px;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.back-btn {
+  text-decoration: none;
+  color: #fff;
+  background: #6a11cb;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.back-btn:hover {
+  background: #2575fc;
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
